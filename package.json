@@ -1,6 +1,6 @@
 {
   "name": "@artizon/derive-zustand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "files": [
     "dist"
@@ -11,12 +11,6 @@
   },
   "main": "./dist/derive-zustand.js",
   "module": "./dist/derive-zustand.mjs",
-  "exports": {
-    ".": {
-      "import": "./dist/derive-zustand.js",
-      "require": "./dist/derive-zustand.mjs"
-    }
-  },
   "types": "./dist/main.d.ts",
   "scripts": {
     "build": "vite build",
