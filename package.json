@@ -5,6 +5,10 @@
   "files": [
     "dist"
   ],
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/derive-zustand.js",
   "module": "./dist/derive-zustand.mjs",
   "exports": {
