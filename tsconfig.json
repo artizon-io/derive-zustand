@@ -9,6 +9,6 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*", "texts/**/*", "./vite.config.ts", "tests"],
+  "include": ["src/**/*", "tests/**/*", "./vite.config.ts", "tests"],
   "exclude": ["node_modules"]
 }

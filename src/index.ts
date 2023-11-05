@@ -136,6 +136,7 @@ export const derive = <
     setState: () => {
       throw new Error("setState is not available in derived store");
     },
+    // FIX: Handle unsubscribing from input stores when "destroyed" (but destroyed api is deprecated?)
     destroy: () => {
       store.getState().depsSubs.forEach((unsub) => unsub());
     },
